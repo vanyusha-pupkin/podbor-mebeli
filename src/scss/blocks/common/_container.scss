@@ -1,0 +1,30 @@
+.container {
+  max-width: $width-max;
+  width: 100%;
+  margin: 0 auto;
+  // padding: 0 $padding-width-max;
+
+  @media (max-width: $bp-1+px) {
+    // width: $width-bp-1;
+    // width: 100%;
+    // margin: 0 auto;
+    padding: 0 $padding-bp-1;
+  }
+
+  // @media (max-width: $bp-2+px) {
+    // width: $width-bp-2;
+    // margin: 0 auto;
+    // padding: 0 $padding-bp-2;
+  // }
+
+  // @media (max-width: $bp-3+px) {
+    // width: $width-bp-3;
+    // margin: 0 auto;
+    // padding: 0 $padding-bp-3;
+  // }
+
+  // @media (max-width: $bp-4+px) {
+    // width: $width-min;
+    // padding: 0 $padding-width-min;
+  // }
+}

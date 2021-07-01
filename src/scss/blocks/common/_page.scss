@@ -1,0 +1,21 @@
+.page {
+  box-sizing: border-box;
+}
+
+.page__body {
+  min-width: $width-min;
+
+  &--lock {
+    overflow: hidden;
+  }
+}
+
+.page__wrapper {
+  overflow: hidden;
+}
+
+.page__header {}
+
+.page__main {}
+
+.page__header {}
