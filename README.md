@@ -1,4 +1,4 @@
-# Проект «ActiveBox»
+# Проект «Podbor Mebeli»
 
 ---
 ## Ссылка на сайт - [https://vanyusha-pupkin.github.io/---/](https://vanyusha-pupkin.github.io/---/)
