@@ -5,33 +5,33 @@ $folder-fonts:  "../fonts/";       // путь к шрифтам
 
 
 //PADDING
-// $p-w-min: 15;
+$p-w-min: 15;
 // $p-bp-1:  15;
-// $p-bp-2:  15;
+$p-bp-2:  18;
 // $p-bp-3:  15;
-// $p-w-max: 15;
+$p-w-max: 20;
 
-// $padding-width-min: $p-w-min + px;
+$padding-width-min: $p-w-min + px;
 // $padding-bp-1:      $p-bp-1 + px;
-// $padding-bp-2:      $p-bp-2 + px;
+$padding-bp-2:      $p-bp-2 + px;
 // $padding-bp-3:      $p-bp-3 + px;
-// $padding-width-max: $p-w-max + px;
+$padding-width-max: $p-w-max + px;
 
 //SIZE
-// $w-layout: 1920;
-// $w-max: 1170;
+$w-layout: 1920;
+$w-max: 1216;
 // $w-bp-1: 970;
 // $w-bp-2: 750;
 // $w-bp-3: 420;
 $w-min: 320;
 
 
-// $width-layout: $w-layout + px;
-// $width-max: $w-max + px;
+$width-layout: $w-layout + px;
+$width-max: $w-max + px;
 // $width-bp-1: $w-bp-1 + px;
 // $width-bp-2: $w-bp-2 + px;
 // $width-bp-3: $w-bp-3 + px;
-// $width-min: $w-min + px;
+$width-min: $w-min + px;
 
 
 //BREAK POINT - mobile first
@@ -47,23 +47,23 @@ $bp-4: 480;
 
 
 //COLOR
-// $color-black: #333333;
-// $color-white: #ffffff;
-// $color-red: #e84545;
-// $color-blue: #3a3e64;
-// $color-blue-dark: #313454;
+$color-black: #333333;
+$color-white: #ffffff;
+// $color-yellow: #ffcf10;
+// $color-yellow-dark: #;
+$color-blue: #2f80ed;
+// $color-blue-dark: #;
 
 
 //FONT
-// $font-family-base: "Raleway", "Arial", sans-serif;
-// $font-size-base: 14px;
-// $line-height-base: calc(21px / 14px);
-// $font-weight-base: 400;
-// $font-color-base: #6c7279;
-// $font-color-title: #2d3033;
+$font-family-base: "Muller", "Arial", sans-serif;
+$font-size-base: 16px;
+$line-height-base: 140%;
+$font-weight-base: 400;
+$font-color-base: $color-black;
 
 //BACKGROUND
-// $body-bg-color: $color-white;
+$body-bg-color: $color-white;
 
 //TRANSITION
 // $timing-function: 0.0s;
