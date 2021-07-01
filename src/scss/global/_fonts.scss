@@ -1,6 +1,13 @@
 
 // font
 
+@include font-face("Muller","Muller-Regular", "Muller", "Muller-Regular", 400, normal);
+@include font-face("Muller","Muller-Medium", "Muller Medium", "Muller-Medium", 500, normal);
+@include font-face("Muller","Muller-Bold", "Muller Bold", "Muller-Bold", 700, normal);
+
+@include font-face("Roboto","Roboto-Regular", "Roboto", "Roboto-Regular", 400, normal);
+
+
 // template
 // @include font-face("","", "", "", 400, normal);
 // @include font-face("","-ExtraLightItalic", " ExtraLightItalic", "-ExtraLightItalic", 200, italic);
